@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <title>VisCom 2162 Web site</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="styles/forms.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1><a href="/index.html">VICO 2162</a></h1>
+      <!-- nav>
+        <ul>
+          <li>Navigation sample</li>
+          <li>Slider sample</li>
+        </ul>
+
+      </nav -->
+    </header>
+    <div id="content">
+      <main>
+        <p>Please fill out the form below to select you preferred pizza toppings</p>
+
+        <form action="sendMeal.php" method="post" >
+          <input type="text" name="toEmail" value="macem@ohio.edu" hidden>
+          <span class="name">Name : </span>
+          <input type="text" value="" name="name"><br />
+          <input type="radio" value="Pepperoni" name="pizzaTopping">Pepperoni<br />
+          <input type="radio" value="Veggies" name="pizzaTopping">Veggies<br />
+          <input type="radio" value="Cheese" name="pizzaTopping">Cheese<br />
+          <input type="radio" value="Other" name="pizzaTopping">Other</br>
+          <p>If you selected other, please specify  type</p>
+          <textarea name="other" rows="5" cols="80" placeholder="Please Specify other"></textarea>
+          <p>Preference for day of week</p>
+          <select name="day">
+            <option value="">-- Please select day --</option>
+            <option value="monday">Monday</option>
+            <option value="wednesday">Wednesday</option>
+          </select><br/>
+
+          <input name="myFile" type="file">
+
+          <div class="submit">
+            <input type="submit" value="Order ME PIZZA!!!" name="submit">
+          </div>
+        </form>
+
+
+      </main>
+      <aside>
+        <div class="samples">
+          <h3>Samples</h3>
+          <ul>
+            <li><a href="topnav/index.html">Navigation</a></li>
+            <li>Slider</li>
+            <li>Parallax</li>
+          </ul>
+          <h3>Viewport</h3>
+          <ul>
+            <li><a href="screen-size.html">screen size with no viewport</a></li>
+            <li><a href="mobile-screen-size.html">screen size with viewport</a></li>
+          </ul>
+        </div>
+
+        <div class="tool">
+
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="https://sourceforge.net/projects/filezilla/">Filezilla</a></li>
+            <li><a href="https://atom.io/">Atom</a></li>
+            <li><a href="https://www.google.com/chrome/">Chrome</a></li>
+
+            <li><a href="https://www.wirify.com/">Wirify</a></li>
+          </ul>
+        </div><!-- tool -->
+        <div class="imageResources">
+          <h3>Image Resources</h3>
+          <ul>
+            <li><a href="https://www.pexels.com/">Pexels</a></li>
+            <li><a href="https://thestocks.im">The Stocks</a></li>
+            <li><a href="https://picsum.photos/">Lorem Picsum</a></li>
+          </ul>
+        </div><!-- imageResources -->
+
+      </aside>
+    </div><!-- #content -->
+    <footer>&copy; 2018 Mark Mace / VICO 2162 </footer>
+  </body>
+</html>

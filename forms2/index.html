@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+  <head>
+    <title>VisCom 2162 Web site</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="styles/form.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <h1><a href="/index.html">VICO 2162</a></h1>
+      <!-- nav>
+        <ul>
+          <li>Navigation sample</li>
+          <li>Slider sample</li>
+        </ul>
+
+      </nav -->
+    </header>
+    <div id="content">
+      <main>
+        <p>Example form - gathering information for pizza</p>
+        <div id="form">
+
+            <form action="sendMail.php" method="POST">
+                <input type="text" name="toEmail" value="macem@ohio.edu" hidden>
+                <input type="text" name="name">
+                <select name="date">
+                    <option value="">-- please select a day --</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Wednesday">Wednesday</option>
+                </select>
+                <input type="radio" name="pizza" value="cheese">cheese
+                <input type="radio" name="pizza" value="pepperoni">cheese
+                <input type="radio" name="pizza" value="veggie">cheese
+                <input type="radio" name="pizza" value="">cheese
+                
+
+
+                <input type="submit" value="Send eMail" name="submit">
+            </form>
+
+        </div>
+      </main>
+      <aside>
+        <div class="samples">
+          <h3>Samples</h3>
+          <ul>
+            <li><a href="topnav/index.html">Navigation</a></li>
+            <li>Slider</li>
+            <li>Parallax</li>
+          </ul>
+          <h3>Viewport</h3>
+          <ul>
+            <li><a href="screen-size.html">screen size with no viewport</a></li>
+            <li><a href="mobile-screen-size.html">screen size with viewport</a></li>
+          </ul>
+        </div>
+
+        <div class="tool">
+
+          <h3>Resources</h3>
+          <ul>
+            <li><a href="https://sourceforge.net/projects/filezilla/">Filezilla</a></li>
+            <li><a href="https://atom.io/">Atom</a></li>
+            <li><a href="https://www.google.com/chrome/">Chrome</a></li>
+
+            <li><a href="https://www.wirify.com/">Wirify</a></li>
+          </ul>
+        </div><!-- tool -->
+        <div class="imageResources">
+          <h3>Image Resources</h3>
+          <ul>
+            <li><a href="https://www.pexels.com/">Pexels</a></li>
+            <li><a href="https://thestocks.im/">The Stocks</a></li>
+            <li><a href="https://picsum.photos/">Lorem Picsum</a></li>
+          </ul>
+        </div><!-- imageResources -->
+
+      </aside>
+    </div><!-- #content -->
+    <footer>&copy; 2018 Mark Mace / VICO 2162 </footer>
+  </body>
+</html>

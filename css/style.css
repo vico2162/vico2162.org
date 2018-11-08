@@ -1,0 +1,72 @@
+body, html {
+  padding:0px;
+  margin:0px;
+  }
+header {
+  border-bottom:1px solid #ccc;
+  position:relative;
+  background:url("../images/bricks.jpeg");
+  /* note, tricky, this if from the location of the css file */
+}
+header h1 {
+  text-align:left;
+  padding:20px 10px;
+  margin:0px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+header nav {
+  position: absolute;
+  right:0px;
+  top:0px;
+}
+header nav ul {
+  padding:0px;
+}
+header nav ul li {
+  display:inline-block;
+  border-right: 1px solid black;
+  padding:0px 10px;
+}
+
+header nav ul li:last-child {
+  border:none;
+}
+
+div#content {
+  position:relative;
+  width:90%;
+  margin:0 auto;
+}
+
+main {
+  float:left;
+  width: 80%;
+
+}
+div#content aside {
+  padding-bottom:1000em;
+  padding-left: 10px;
+  overflow:hidden;
+  border-left:1px solid #ccc;
+}
+aside ul {
+  padding:0px;
+}
+aside ul li {
+  list-style-type:none;
+}
+
+footer {
+  background-color: black;
+  z-index:100;
+  padding:10px 10%;
+  position: fixed;
+  bottom:0px;
+  width:100%;
+  color:white;
+}
